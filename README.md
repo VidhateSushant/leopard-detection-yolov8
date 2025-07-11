@@ -1,4 +1,4 @@
-# Leopard Detection with YOLOv8 🐆
+<img width="961" height="453" alt="Screenshot 2025-07-11 at 3 28 31 PM" src="https://github.com/user-attachments/assets/a4b4e4cc-6936-4b3e-9b66-374c2dff59bc" /># Leopard Detection with YOLOv8 🐆
 
 A Python project for real-time leopard detection using a custom YOLOv8 model and OpenCV. This application processes video input from a webcam or video file to detect leopards with high accuracy.
 
@@ -6,7 +6,7 @@ A Python project for real-time leopard detection using a custom YOLOv8 model and
 - Real-time leopard detection using a pre-trained YOLOv8 model
 - Customizable confidence threshold (default: 0.7)
 - Visualizes bounding boxes and labels on detected leopards
-- Supports webcam or video file input
+- Supports webcam or image/video file input
 
 ## 📋 Requirements
 - Python 3.8+
@@ -30,14 +30,16 @@ pip install opencv-python ultralytics
 ## ▶️ Usage
 Run the detection script:
 ```bash
-python leopard_detection.py
+python main.py
 ```
 - Press `q` to quit the application.
 - The script processes video input and displays detected leopards with bounding boxes and labels.
 
 ## 📸 Screenshots
-![Leopard Detection](screenshots/detection_example.jpg)
-*Example of real-time leopard detection with bounding boxes and labels.*
+<img width="926" height="424" alt="Screenshot 2025-07-11 at 3 29 29 PM" src="https://github.com/user-attachments/assets/d2ec0415-0d14-45d9-8038-979e2276e681" />
+
+<img width="834" height="334" alt="Screenshot 2025-07-11 at 3 29 58 PM" src="https://github.com/user-attachments/assets/892617d1-110f-4a5c-bbe3-fff787f7e03f" />
+
 
 ## 📝 Notes
 - Ensure the `NTLeopard1.pt` model is trained for leopard detection.
