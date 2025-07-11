@@ -1,4 +1,4 @@
-<img width="961" height="453" alt="Screenshot 2025-07-11 at 3 28 31 PM" src="https://github.com/user-attachments/assets/a4b4e4cc-6936-4b3e-9b66-374c2dff59bc" /># Leopard Detection with YOLOv8 🐆
+# Leopard Detection with YOLOv8 🐆
 
 A Python project for real-time leopard detection using a custom YOLOv8 model and OpenCV. This application processes video input from a webcam or video file to detect leopards with high accuracy.
 
